@@ -30,5 +30,5 @@ If you have Terraform modules located outside of your current working directory 
 ## How to install:
 ```
 git clone https://github.com/lcuquejo/m2-terraform-docker.git
-cp m2-terraform-docker/terraform /usr/local/bin
+cp -Rp m2-terraform-docker/terraform /usr/local/bin
 ```
