@@ -1,9 +1,11 @@
 # m2-terraform-docker
 A terraform wrapper for Macbooks m2 Using docker.
 
-## Needed
+## Env Needed for AWS
 AWS_ACCESS_KEY_ID
+
 AWS_SECRET_ACCESS_KEY
+
 TERRAFORM_VERSION (The default value is 0.14.11)
 
 ## Extra ENVs
@@ -25,5 +27,8 @@ If you have Terraform modules located outside of your current working directory 
  export BASE_TERRAFORM=~/myTerraform/
 ``` 
 
-How to install:
+## How to install:
+```
 git clone https://github.com/lcuquejo/m2-terraform-docker.git
+cp m2-terraform-docker/terraform /usr/local/bin
+```
