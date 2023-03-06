@@ -1,5 +1,5 @@
 # m2-terraform-docker
-A terraform wrapper for Macbooks m2 Using docker.
+A terraform wrapper for Macbooks m1/m2 Using docker.
 
 ## Env Needed for AWS
 AWS_ACCESS_KEY_ID
