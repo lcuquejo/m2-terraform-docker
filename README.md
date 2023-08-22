@@ -33,3 +33,25 @@ For example, consider the following directory structure:
 git clone https://github.com/lcuquejo/m2-terraform-docker.git
 cp -Rp m2-terraform-docker/terraform /usr/local/bin
 ```
+
+## Example usage:
+### Newer version:
+```
+export TERRAFORM_VERSION=1.5.5
+
+$ terraform -v
+Terraform v1.5.5
+on linux_amd64
+```
+
+### Example 1.4.6 + AWS
+```
+export AWS_ACCESS_KEY_ID=xxxx
+export AWS_SECRET_ACCESS_KEY=xxxxxxxxx
+export TERRAFORM_VERSION=1.4.6
+
+$ terraform -v
+Terraform v1.4.6
+on linux_amd64
+```
+
