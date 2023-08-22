@@ -5,7 +5,7 @@ import subprocess
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-TERRAFORM_VERSION = os.environ.get('TERRAFORM_VERSION', '0.14.11')
+TERRAFORM_VERSION = os.environ.get('TERRAFORM_VERSION', '1.5.5')
 BASE_TERRAFORM = os.environ.get('BASE_TERRAFORM', os.getcwd())
 
 relative_path = os.path.relpath(os.getcwd(), BASE_TERRAFORM)
