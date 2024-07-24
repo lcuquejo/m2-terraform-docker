@@ -31,7 +31,7 @@ For example, consider the following directory structure:
 ## How to install:
 ```
 git clone https://github.com/lcuquejo/m2-terraform-docker.git
-cp -Rp m2-terraform-docker/terraform /usr/local/bin
+sudo cp -Rp m2-terraform-docker/terraform /usr/local/bin
 ```
 
 ## Example usage:
